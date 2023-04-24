@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Roboto+Condensed:wght@300&display=swap'); /*CSS RESET*/
+
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*STYLES*/
+
+/*body {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    font-family: 'Roboto Condensed', sans-serif;*/
+/*}*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map{
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#country-list {
+    list-style-type: none;
+    column-count: 4;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: #FAFAFA;
+    padding: 30px;
+    margin: 100px;
+    overflow-y: auto;
+}
+
+.flag {
+    width: 20px;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.population {
+    margin: 0 0 12px 0;
+    font-size: 10px;
+}
+
+.blue {
+    color: #5575C1;
+}
+
+.green {
+    color: #4C834B;
+}
+
+.red {
+    color: #D24E5B;
+}
+
+.yellow {
+    color: #FFD435;
+}
+
+.purple {
+    color: #A653BA;
+}
+
+.default {
+    color: grey;
+}
+
+#Australia:hover{
+    fill: #A653BA;
+}
